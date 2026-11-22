@@ -1,0 +1,9 @@
+{
+  "name": "Richford — Computing & Cybersecurity",
+  "short_name": "Richford",
+  "description": "Personal portfolio and student developer projects.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f"
+}

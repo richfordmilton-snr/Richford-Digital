@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08111f">
+  <meta name="description" content="Richford's personal portfolio — computing, web development and cybersecurity projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Richford — Computing & Cybersecurity">
+  <meta property="og:description" content="A computing student exploring web development, software and cybersecurity through practical projects.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <title>Richford — Computing & Cybersecurity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Richford home"><img class="brand-avatar" src="assets/richford-profile.jpg" alt=""><span>RICHFORD<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#work">Projects</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light theme"><span class="theme-icon">◐</span><span>Theme</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-grid"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> GHANA · COMPUTING STUDENT</p>
+        <h1>Building useful<br><span class="gradient-text">digital experiences.</span></h1>
+        <p class="hero-intro">I'm Richford — a computing student exploring web development, software, and cybersecurity. I learn by building, testing, and improving real projects.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <a href="#contact">Open to learning & collaboration</a>
+          <span class="meta-separator"></span>
+          <span>Student developer</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Decorative code-inspired graphic">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="code-window">
+          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>richford.js</span><span class="window-lock">⌁</span></div>
+          <div class="code-lines">
+            <p><span class="ln">01</span> <span class="code-purple">const</span> <span class="code-blue">developer</span> = {</p>
+            <p><span class="ln">02</span> &nbsp; curiosity: <span class="code-green">"always"</span>,</p>
+            <p><span class="ln">03</span> &nbsp; focus: [</p>
+            <p><span class="ln">04</span> &nbsp;&nbsp; <span class="code-green">"web development"</span>,</p>
+            <p><span class="ln">05</span> &nbsp;&nbsp; <span class="code-green">"cybersecurity"</span></p>
+            <p><span class="ln">06</span> &nbsp; ],</p>
+            <p><span class="ln">07</span> &nbsp; build: <span class="code-purple">() =&gt;</span> <span class="code-blue">"something useful"</span></p>
+            <p><span class="ln">08</span> };</p>
+            <p class="code-cursor"><span class="ln">09</span> <span class="cursor"></span></p>
+          </div>
+          <div class="window-footer"><span><span class="status-dot"></span> learning in public</span><span>v.01</span></div>
+        </div>
+        <div class="float-chip chip-top"><span class="chip-icon">✳</span> Build · Learn · Improve</div>
+        <div class="float-chip chip-bottom"><span class="chip-icon">⌘</span> Problem solver</div>
+      </div>
+      <div class="hero-scroll"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT</p><h2>Curious by nature.<br><span class="muted">Driven to build.</span></h2></div>
+      <div class="about-layout">
+        <div class="about-note reveal"><p class="large-copy">Technology is more than code. It's a way to turn ideas into tools that make life a little easier.</p><p class="body-copy">I'm developing my foundations in computing through school, independent study, and hands-on projects. I'm especially interested in how software is built and how digital systems can be made safer.</p><a class="text-link" href="#contact">Have a project in mind? <span>↗</span></a></div>
+        <div class="about-cards reveal">
+          <article class="mini-card"><span class="mini-number">A</span><div><h3>Learn with purpose</h3><p>Understand the fundamentals, then put them into practice.</p></div></article>
+          <article class="mini-card"><span class="mini-number">B</span><div><h3>Build real things</h3><p>Small projects that solve problems and demonstrate progress.</p></div></article>
+          <article class="mini-card"><span class="mini-number">C</span><div><h3>Keep improving</h3><p>Test, debug, take feedback, and make the next version better.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="work">
+      <div class="section-heading heading-row reveal"><div><p class="eyebrow">02 / SELECTED WORK</p><h2>Projects in progress<span class="accent">.</span></h2></div><p class="section-side-note">Learning through making.<br>More projects coming soon.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-feature reveal">
+          <div class="project-art art-study"><div class="study-ui"><span class="ui-kicker">RICHSTUDY / FOCUS</span><div class="timer-graphic">25<span>:00</span></div><div class="timer-track"><i></i></div><div class="ui-pills"><b>MATHEMATICS</b><b>PHYSICS</b><b>CHEMISTRY</b></div></div><span class="art-index">PROJECT 01</span></div>
+          <div class="project-info"><div class="project-title-row"><h3>RichStudy</h3><span class="project-status">In development</span></div><p>A study timer and preparation dashboard designed to support focused learning and daily revision.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="#contact" data-project="RichStudy">Discuss this project <span>↗</span></a></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art art-security"><div class="security-rings"><div class="ring ring-a"></div><div class="ring ring-b"></div><div class="ring-core">SEC<span>+</span></div></div><span class="art-index">PROJECT 02</span></div>
+          <div class="project-info"><div class="project-title-row"><h3>Security learning lab</h3><span class="project-status">Learning</span></div><p>Documenting networking, Linux, and defensive security fundamentals through guided practice.</p><div class="tag-list"><span>Linux</span><span>Networking</span><span>Security</span></div><a class="project-link" href="#contact" data-project="Security learning lab">View learning journey <span>↗</span></a></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art art-web"><div class="browser-card"><div class="browser-top"><i></i><i></i><i></i></div><div class="browser-content"><b></b><b></b><span></span><span></span><span></span></div></div><span class="art-index">PROJECT 03</span></div>
+          <div class="project-info"><div class="project-title-row"><h3>Personal portfolio</h3><span class="project-status">Building</span></div><p>A responsive home for my work, skills, learning progress, and professional contact.</p><div class="tag-list"><span>Responsive UI</span><span>Accessibility</span></div><a class="project-link" href="#contact" data-project="Personal portfolio">Follow the build <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">03 / TOOLKIT</p><h2>Skills I'm growing<span class="accent">.</span></h2><p class="body-copy section-description">A transparent snapshot of my current learning areas — not a claim of mastery.</p></div>
+      <div class="skills-layout reveal">
+        <div class="skill-group"><span class="skill-index">01</span><div><h3>Web & software</h3><p>HTML · CSS · JavaScript fundamentals</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-group"><span class="skill-index">02</span><div><h3>Computing foundations</h3><p>Problem solving · Algorithms · Computer systems</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-group"><span class="skill-index">03</span><div><h3>Cybersecurity</h3><p>Networking · Linux · Security fundamentals</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-group"><span class="skill-index">04</span><div><h3>Tools & workflow</h3><p>Git · GitHub · Debugging · Documentation</p></div><span class="skill-arrow">↗</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-inner reveal">
+        <p class="eyebrow">04 / CONTACT</p><h2>Let's make something<br><span class="gradient-text">worth sharing.</span></h2><p class="contact-copy">Have a question, idea, or opportunity to learn together? Send a message.</p>
+        <div class="contact-actions"><a class="button button-primary" id="emailLink" href="mailto:richfordmilton@gmail.com">Email me <span>↗</span></a><a class="button button-quiet" id="gmailLink" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=richfordmilton@gmail.com" target="_blank" rel="noopener">Open Gmail <span>↗</span></a><button class="button button-quiet" id="copyEmailButton" type="button">Copy email</button><a class="button button-quiet" id="whatsappLink" href="https://wa.me/233557545740" target="_blank" rel="noopener">WhatsApp <span>↗</span></a></div><p class="contact-feedback" id="contactFeedback" aria-live="polite"></p>
+        <p class="contact-small">You can reach me by email or WhatsApp using the buttons above.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap"><a class="brand footer-brand" href="#home"><img class="brand-avatar" src="assets/richford-profile.jpg" alt=""><span>RICHFORD<span class="brand-dot">.</span></span></a><span>Designed & built with curiosity.</span><a href="#home" class="back-top">Back to top ↑</a></footer>
+
+  <button class="chat-launcher" id="chatLauncher" aria-label="Open site assistant"><span class="chat-bubble-icon">✦</span><span>Ask me</span></button>
+  <section class="chat-panel" id="chatPanel" aria-label="Website assistant" hidden>
+    <div class="chat-header"><div class="chat-identity"><img class="chat-avatar" src="assets/richford-profile.jpg" alt=""><span class="status-dot" aria-hidden="true"></span><strong>Richford's assistant</strong><small>Portfolio helper · Demo</small></div><button id="chatClose" aria-label="Close assistant">×</button></div>
+    <div class="chat-messages" id="chatMessages"><div class="chat-message bot">Hi! I'm the portfolio assistant. Ask me about Richford's projects, learning interests, or how to get in touch.</div></div>
+    <div class="chat-suggestions"><button data-question="What projects are you building?">Projects</button><button data-question="What are you learning?">Skills</button><button data-question="How can I contact you?">Contact</button></div>
+    <form class="chat-form" id="chatForm"><input id="chatInput" autocomplete="off" placeholder="Ask a question…" aria-label="Ask a question"><button type="submit" aria-label="Send message">↑</button></form>
+    <p class="chat-disclaimer">Demo assistant: answers are predefined, not connected to an AI service yet.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
